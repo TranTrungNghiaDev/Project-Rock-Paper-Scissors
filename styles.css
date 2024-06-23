@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    text-align: center;
+}
+
+body, #choices-div, #play-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+#choices-div div {
+    text-align: center;
+}
+
